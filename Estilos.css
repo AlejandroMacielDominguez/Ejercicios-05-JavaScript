@@ -1,0 +1,26 @@
+header{
+	background-color: #61A0AF;
+	border: 2px solid black;
+	text-align: center;
+	
+}
+
+h4{
+	border: 5px solid;
+	background-color: #96C9DC;
+	text-align: center;
+}
+
+div{
+	background-color: #EAB464;
+}
+
+p{
+	margin: 1px 10px;
+	
+}
+ul{
+	background-color: #EF959C;
+	margin: 15px;
+}
+

@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8" />
+    <title>Ejercicios 05</title>
+    <link rel="stylesheet" type="text/css" href="Estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Ejercicios 05 JavaScript</h1>
+    </header>
+
+    <div class="Preguntas">
+        <h4>¿Que es Javascript?</h4>
+        <p>Es un lenguaje de programación ligero, interpretado, o compilado justo-a-tiempo. Si bien es más conocido como lenguaje de script principalmente usado para páginas web, es usado en variados entornos fuera del navegador. Es un lenguaje basado en prototipo, multi-paradigma, dinámico, de un solo hilo y orientada a objetos.</p>
+        <h4>¿Qué hace JavaScript? </h4>
+        <p>JavaScript es principalmente usado para crear interactividad dinámica en sitios web. Se pueden crear cosas como galerías de imágenes, diseños fluctuantes y respuestas a pulsaciones de botones, también se puede utilizar para crear aplicaciones basadas en base de datos, animaciones 2D, gráficos 3D entre muchas otras cosas.</p>
+        <h4>¿Qué es el DOM?</h4>
+        <p>Es el modelo de objeto e documento, la cual es una interfaz de programación para los documentos HTML y XML. Facilita una representación estructurada del documento y define la manera en la que los programas puedan acceder, al fin de modificar, tanto estructura, como contenido y estilo. El DOM representa el documento como un grupo de nodos y objetos estructurados que tienen métodos  y propiedades. </p>
+        <h4>¿Qué es un APIs Web? </h4>
+        <p>Las APIs o las Interfaces de Programación de Aplicación (Aplication Programming Interface) son construcciones de lenguajes de programación que permiten crear funcionalidades complejas de manera que sea más sencillo. Abstraen el código complejo en una sintaxis fácil de usar.</p>
+        <h4>Mencionan como minio 5 ejemplos de Apis Web</h4>
+        <ul>
+            <li>Google maps: Permite incrustar mapas del servicio de google, los cuales se pueden manipular.</li>
+            <li>Youtube: Se utiliza para utilizar información proveniente de YouTube.</li>
+            <li>OpenSocial: Permite conectar a distintos servicios sociales en los que se pueda acceder a perfiles de usuario, amigos, contactos y toda información que se haya provisto.</li>
+            <li>Flick r: API utilizada para administrar fotos y compartirlas</li>
+            <li>Amazon s3: Permite almacenar archivos a una infraestructura robusta provista por Amazon a un precio más accesible del que costaría </li>
+        </ul> 
+        <h4>¿Qué es lo que JavaScript hace en tu página web? </h4>
+        <p>Puede crear interactividad dinámica, gráficos 3D, animaciones 2D, entre muchas otras cosas.</p>
+        <h4>Menciona un ejemplo de cómo añadir JavaScript a tu página web</h4>
+        <p> script alert(‘Hello world’) script </p>
+        <p>La otra seria haciéndolo desde un archivo .js y desde el archivo que quieras utilizar enlazarlo con una etiqueta "link"</p>
+        <h4>¿Cuáles son las dos maneras de añadir código JavaScript a tu sitio web?</h4>
+        <p>La primera es inyectarlo directamente desde el documento con las etiquetas script alert(‘Hello world’) script</p>
+        <p>La otra seria haciéndolo desde un archivo .js y desde el archivo que quieras utilizar enlazarlo con una etiqueta link </p>
+        <h4>¿Cómo se comenta el código en JavaScript?</h4>
+        <p>El código se comenta con un doble ‘/’ // esto es un comentario en Javascript</p>
+        <h4>¿Cómo se declara una variable y cuáles son sus principales características?</h4>
+        <p>Con la palabra reservada ‘var’, la forma de definir una variable es primero escribir la palabra var, seguido de un nombre para la variable, después con el signo = se le asigna un valor a la variable, puede ser un valor numérico, flotante, booleano o de texto, ente otros. Var numero = 10</p>
+        <h4>¿Cómo se declara una condición y cuáles son sus principales características?</h4>
+        <p>Las condiciones se declaran con las palabras ‘if, else’ siendo if (condición){ bloque de código } else {Bloque de código} mientras se cumpla la condición del if, se ejecuta el bloque de código, si no se cumple la condición se ejecuta el bloque de código del else.</p>
+        <h4>¿Cómo se declara bucle y cuáles son sus principales características?</h4>
+        <p>El bucle while, es un bucle que se repetirá mientras su condición sea verdadera o falsa, su sintaxis seria: while (condición) {}</p>
+        <p>El bucle for de manera similar al while se repite mientras su condición se cumpla:
+        for(inicio, condición,incremento) 
+        </p>
+        <h4>¿Cómo se declara una función y cuáles son sus principales características?</h4>
+        <p>La función se declara con la palabra reservada function(parámetros){bloque de código}</p>
+        <p>La función cada vez que es llamada ejecuta un bloque de código, la función puede tener parámetros los cuales son valores que pueden llevar a un resultado o a otro, los parámetros son enviados al momento de llamar la función</p>
+        <h4>¿Cómo se declara un objeto y cuáles son sus principales características?</h4>
+        <p>Para declarar una variable de tipo objeto de la forma: var = Obj = new Objeto();</p>
+        <p>Una vez declarado se le pueden asignar propiedades o métodos:</p>
+        <p>Obj.foo = “bar”;</p>
+        <p>Obj.hello = function { console.log (“Hello World!”); }</p>
+        <h4>¿Cómo se puede leer un evento con JavaScript?</h4>
+        <p>La forma en que se produce un evento es al momento de presionar un botón, o una tecla, también al momento de cargar una pagina.</p>
+        <h4>¿Qué eventos podemos leer con JavaScript menciónales y descríbalos?</h4>
+        <ul>
+            <li>Onblur: un elemento pierde el foco</li>
+            <li>Onchange: Un elemento ha sido modificado</li>
+            <li>Onclick: Pulsar y soltar botón</li>
+            <li>Ondbclick: Pulsar dos veces seguidas con el raton</li>
+            <li>Onfocus: Un elemento obtiene el foco</li>
+            <li>Onkeydown: pulsar una tecla y no soltarla</li>
+            <li>Onkeypress: pulsar una tecla</li>
+            <li>Onkeyup: Soltar una tecla pulsada</li>
+            <li>Onload: página cargada completamente</li>
+            <li>Onmousedown: Pulsar un botón del ratón y no soltarlo </li>
+            <li>Onmousemove: Mover el raton</li>
+            <li>Onmaouseout: Cuando el ratón sale de un elemento</li>
+            <li>Onmouseover: Cuando el raton entra en un elemento</li>
+            <li>Onmouseup: Soltar el botón del raton</li>
+            <li>Onreset: Inicializar el formulario</li>
+            <li>Onrezise: modificar el tamaño de la ventana</li>
+            <li>Onselect: Seleccionar un texto</li>
+            <li>Onsubmit: Enviar formulario</li>
+            <li>Onunload: Se abandona la pagina</li>
+        </ul>
+        <h4>Mencionan un ejemplo donde JavaScript sea ejecutado del lado del cliente</h4>
+        <p>Los lenguajes del lado del cliente son aquellos que se pueden ejecutar desde el navegador sin necesidad de recargar desde el servidor, por lo que el servidor envía código y es tarea del navegador interpretarlo. Ya que se ejecuta desde el navegador se puede creare lo que sea que permita javascript, desde juegos, animaciones, interactividad con los usuarios, etc.</p>
+        <h4>Mencionan un ejemplo donde JavaScript sea ejecutado del lado del servidor</h4>
+        <p>A pesar de que en un principio JavaScript es un lenguaje del lado del cliente, actualmente también es un lenguaje por parte del servidor, los servidores con los cuales puedes llegar a utilizar  JavaScript son Node.js,EjScript, RingoJs y AppEgineJs.  Un problema que se puede resolver gracias a esto vendría siendo la forma en la que se pueden hacer conexiones con el servidor, en lugar de generar un hilo con la OS para la conexión; Cada ejecución dispara una ejecución de evento.</p>
+        <h4>¿Qué tipo de errores podemos encontrar en JavaScript?</h4>
+        <p>Los errores mas comunes de JavaScript son:</p>
+        <ul>
+            <li>Uncaught TypeError: cannot read property: Ocurrre chrome lee una propiedad o llama a un método de un objeto indefinido.</li>
+            <li>typeError: “undefine” is not an object: Ocurre cuando en Safari lees una propiedad o llamas un método de un objeto indefinido.</li>
+            <li>TypeError: nut is not an Object: Ocurre cunado lees una propiedad o llamas un método de un objeto nulo</li>
+            <li>Unknown: Script error: Este error nos avisa cuando se origina un error de un archivo JavaScript servido desde un origen diferente</li>
+            <li>TypeError: Object doesn’t suppot property: Este es un error que ocurre en Internet Explorer cuando haces uso de un método indefinido</li>
+        </ul>
+        <h4>¿De qué manera podemos ver los errores de JavaScript en el navegador?</h4>
+        <p>Depende del navegador, es diferente la forma de ver los errores:</p>
+        <ul>
+            <li>Mozilla Firefox, presionas las teclas Ctrl + Shift +J en una PC o Command + Shift + J si estas en una Mac.</li>
+            <li>Google Chrome, presionas las teclas Ctrl + Shift +J en una PC o Command + Shift + J si estas en una Mac.</li>
+            <li>Apple Safari, seleccionas el menú Safari -> Preferencias -> Avanzado -> "Mostrar menú de desarrollo en barra de menú".</li>
+            <li>Microsoft Internet Explorer, en el menú principal seleccionas Herramientas -> Opciones de Internet -> Avanzado luego quitas el cheque en la opción que dice "Disable script debugging" y seleccionas la que dice "Diplay a Notification About Every Script Error".</li>
+            <li>Opera, en el menú principal seleccionas Herramientas -> Avanzado -> Consola de Errores.</li>
+        </ul>
+        <h4>¿Cómo puedo convertir Strings a Objetos?</h4>
+        <p>Utilizando la función JSON.parse()</p>
+        <p>const obj = JSON.parse('{"name":"John", "age":30, "city":"New York"}')</p>
+        <h4>¿Cómo se usan los arreglos en JavaScript?</h4>
+        <div>
+            <p>Para declarar un array se declara como una variable:</p>
+            <p>Var tabla = new Array(10,30,52,60)</p>
+            <p>Var tabla = [10,30,52,60]</p>
+            <p>Otra forma seria</p>
+            <p>Var tabla = new Array(7)</p>
+            <p>Var tabla = [7]</p>
+            <p>tabla[0] = “lunes”;</p>
+            <p>tabla[1] = “martes”;</p>
+            <p>tabla[2] = “miercoles”;</p>
+            <p>tabla[3] = “jueves”;</p>
+            <p>tabla[4] = “viernes”;</p>
+            <p>tabla[5] = “sabado”;</p>
+            <p>tabla[6] = “domingo”;</p>
+        </div>
+        <h4>¿Cuántas versiones de JavaScript han existido menciona sus principales características?</h4>
+        <ul>
+            <li>1995: Primeras versiones de JavaScript, todavía con nombres provisionales como Mocha , LiveScript</li>
+            <li>1997: Definicion del primer estándar JavaScript a cargo de Ecma International que fue denominado ECMA-262 first edition también denominado 1.2</li>
+            <li>1998: Aparicion del segundo estándar JavaScript denominado ECMA-262 también denominado JavaScript 1.3</li>
+            <li>2000: Aparición de la especificación del estándar JavaScript denominado ECMA-262 third edition también denominado JavaScript 1.5</li>
+            <li>2010. Aparición de la especificación del estándar JavaScript denominado ECMA-262 fifth edition también denominado JavaScript 1.8.5</li>
+            <li>2019. Fecha prevista para ECMA-262 sixth edition</li>
+        </ul>
+        <h4>¿Cuántas versiones de ECMAScript han existido menciona sus principales características?</h4>
+        <ul>
+            <li>1997 primera edición</li>
+            <li>1998: Cambios editoriales para mantener la especificación completa alineada con el estándar internacional</li>
+            <li>1999: Se agregan expresiones regulares, mejor manejo de strings, nuevo control de declaraciones, manejo de excepciones, definición mas estricta de errores, formato para salidas numéricas.</li>
+            <li>2009 quinta edición: Se agregó modo estricto, librería para el soporte de JSON.</li>
+            <li>2011 edición 5.1</li>
+            <li>2015 edición 6: Cambios en sintaxis, se agrego loop for, funciones de dirección, datos binarios, colecciones y proxies</li>
+            <li>2016 edición 7: agrega operador exponencial (**), incorpora método Array.proptotype.includes()</li>
+            <li>2017 edición 8: Inclusión de de constructores async/await</li>
+            <li>2018 edición 9: Inclsion de operadores rest/spread, iteración asincrónica.</li>
+            <li>2019 edición 10: incorporó Array.flat(), Array.flatMap(), String.trimStart(), String.trimEnd(), errores opcionales en el bloque catch, Object.fromEntries(), Symbol.description</li>
+        </ul>
+        <h4>¿Qué es Firefox Developer Edition?</h4>
+        <p>Una versión de Firefox especializada para desarrolladores, preparada con herramientas que ayudan al desarrollo web
+        </p>
+        <h4>¿Cuáles son las principales funciones y características de Firefox Developer Edition?</h4>
+        <p>Estas son todas las características que tiene Firefox Developer Edition, algunas de ellas comunes a la versión original de Firefox y otras más avanzadas disponibles solo aqui.</p>
+        <ul>
+            <li>DevTools Challenger</li>
+            <li>Herramientas de edición visual</li>
+            <li>Herramientas de rendimiento</li>
+            <li>Inspector de páginas</li>
+            <li>Editor web Audio</li>
+            <li>Consola Web</li>
+            <li>Depurador de Javascript</li>
+            <li>Monitor de red</li>
+            <li>Editor de estilos</li>
+            <li>Vista diseño responsive</li>
+        </ul>
+        <h4>¿Qué es WebGL?</h4>
+        <p>API implementada en JavaScript para la renderizacion de gráficos 3D dentro de cualquier navegador. No necesita de plugins adicionales a cualquier plataforma que soporte OpenGL 2 o OpenGL ES 2.0. Los elementos de WebGl se pueden combinar con otros elementos html  y estar compuesto con otras partes de la página o del fondo.</p>
+        <h4>Qué APIs existen para APIs for game development?</h4>
+        <ul>
+            <li>Hearstone API</li>
+            <li>RAWG Videogame datebase </li>
+            <li>Dota 2 API</li>
+            <li>The game datebase API</li>
+            <li>Fornite APi</li>
+        </ul>
+        <h4>¿Qué es un webSocket?</h4>
+        <p>WebSockets es una tecnología avanzada que hace posible abrir una sesión de comunicación interactiva entre el navegador del usuario y un servidor. Con esta  API, puede enviar mensajes a un servidor y  recibir  respuestas controladas por eventos sin tener que consultar al servidor para una respuesta.</p>
+        <h4>¿Cómo gestiona la memora JavaScript?</h4>
+        <p>Los valores en Javascript se reservan en memoria cunado objetos, string, etc, son creados y automáticamente liberados cunado ya no son utilizados. A este proceso se le llama recolección de basura.</p>
+    </div>
+</body>
+</html>
